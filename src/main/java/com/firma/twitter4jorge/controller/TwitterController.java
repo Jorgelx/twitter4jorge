@@ -46,7 +46,7 @@ public class TwitterController {
 			twitterService.start(buscar);
 
 			return new ResponseEntity<String>(
-					"Se ha iniciado el buscador de Twitter, se van a buscar y guardar los tweets que contengan la palabra: "
+					"Se ha iniciado el buscador de Twitter, se van a buscar los tweets que contengan la palabra: "
 							+ buscar,
 					HttpStatus.OK);
 		}
