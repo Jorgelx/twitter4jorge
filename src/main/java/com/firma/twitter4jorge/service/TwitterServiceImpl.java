@@ -58,10 +58,10 @@ public class TwitterServiceImpl implements TwitterService {
 	public void start(String buscar) throws IllegalStateException, TwitterException {
 		logger.info("Iniciando configuración de Twitter4J");
 		cb = new ConfigurationBuilder();
-		cb.setDebugEnabled(true).setOAuthConsumerKey("Nh2yH3NKUv9hlsqwrLE9FDimq")
-				.setOAuthConsumerSecret("q3yx2Q9E77edcXKWAUla3d2ZgetjIgTgQiKNdcLxSDVIDE7ToE")
-				.setOAuthAccessToken("1304277912422678531-1L9aW5Rdlvs6s84igzgjvfxakzRDsy")
-				.setOAuthAccessTokenSecret("heDj5wMG6CnNfif6TU3pGTSH2Huokg62kEqdSlxkU6G69");
+		cb.setDebugEnabled(true).setOAuthConsumerKey("****************************")
+				.setOAuthConsumerSecret("******************************")
+				.setOAuthAccessToken("*******************-******************")
+				.setOAuthAccessTokenSecret("******************************");
 		twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 
 		logger.info("Twitter4J arrancado: ID: " + twitterStream.getId());
