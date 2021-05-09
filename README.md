@@ -2,6 +2,8 @@
 
 Breve explicación de la funcionalidad del servicio:
 
+Las tablas de la BBDD se crearan automaticamente al ejecutarse el servicio.
+
 ---------------------------------------------------------------------------------------------------------------------------------
 start():
 
