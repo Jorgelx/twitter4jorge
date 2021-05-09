@@ -98,8 +98,8 @@ public class TwitterController {
 	 * return hashtags; }
 	 */
 
-	@GetMapping(value = { "/Hastags/{limit}", "/Hastags" })
-	public ResponseEntity<List<Hashtag>> getHashtag(@PathVariable(required = false) Integer limit) {
+	@GetMapping(value = { "/hashtags/{limit}", "/hashtags" })
+	public ResponseEntity<List<Hashtag>> hashtags(@PathVariable(required = false) Integer limit) {
 		if (limit == null || limit == 0)
 			limit = 10;
 		return new ResponseEntity<List<Hashtag>>(twitterService.getHashtag(limit), HttpStatus.OK);
