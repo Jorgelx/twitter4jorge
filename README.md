@@ -10,7 +10,7 @@ start():
 
 -Invocación: /twitter/start/{palabra}
 
--Se debe introducir una palabra para iniciar la búsqueda, en el caso de no introducirla, el servicio responderá que es necesario.
+-Se debe introducir una palabra para iniciar la búsqueda, en el caso de no introducirla, el servicio responderá que es necesario hacerlo.
 
 -Solo buscara tweets en español, frances e italiano.
 
@@ -30,7 +30,7 @@ list():
 
 -Lista todos los tweets guardados, los requisitos son +1500 seguidores.
 
--Mostrara el id del tweet, usuario, texto, validación.
+-Devuelve el id del tweet, usuario, texto y si el tweet esta validado.
 
 --------------------------------------------------------
 
@@ -45,7 +45,7 @@ validados():
 
 -Invocación: /twitter/validados/
 
--Muestra una lista con todos los tweets validados
+-Devuelve una lista con todos los tweets validados
 
 --------------------------------------------------------
 
@@ -53,6 +53,6 @@ hastags():
 
 -Invocación: /twitter/hastags/{limit}
 
--Muestra una lista de los hastags mas usados de todos los tweets que ha inspeccionado el servicio.
+-Muestra una lista de los hastags mas usados en los tweets recibidos por el servicio.
 
--Si no se indica el limite, por defecto mostrara los 10 mas usados.
+-Si no se indica el limite, por defecto devolvera los 10 mas usados.
