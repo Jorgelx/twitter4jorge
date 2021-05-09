@@ -49,9 +49,9 @@ validados():
 
 --------------------------------------------------------
 
-hastags():
+hashtags():
 
--Invocación: /twitter/hastags/{limit}
+-Invocación: /twitter/hashtags/{limit}
 
 -Muestra una lista de los hastags mas usados en los tweets recibidos por el servicio.
 
