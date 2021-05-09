@@ -2,7 +2,7 @@
 --------------------------------------------------------
 Breve explicación de la funcionalidad del servicio:
 
-Las tablas tweet y hashtag se crearan automaticamente en la base de datos al ejecutarse el servicio.
+Las tablas tweet y hashtag se crearan automaticamente en la base de datos tras ejecutarse el servicio.
 
 --------------------------------------------------------
 
